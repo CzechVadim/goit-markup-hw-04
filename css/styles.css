@@ -566,7 +566,7 @@ body {
 }
 
 .social-link {
-  display: block;
+  display: flex;
   width: 20px;
   height: 20px;
   padding: 12px;
