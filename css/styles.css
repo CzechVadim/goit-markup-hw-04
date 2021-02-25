@@ -1,11 +1,10 @@
-/* OСНОВНОЙ ШРИФТ ДЛЯ ВСЕГО ДОКУМЕНТА И ССЫЛОК */
+/* --- ОБЩИЕ СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА --- */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; /* основной шрифт для всего документа и ссылок */
 }
 
-
-/* HEADER */
+/* --- HEADER --- */
 
 .header {
   background-color: var(--bg-white-color);
@@ -13,13 +12,12 @@ body {
 }
 
 .header-container {
-  display: flex; 
-  align-items: center; 
-  width: 1230px; 
+  display: flex; /* активация flexbox свойств (делает блок flex-контейнером и все вложенные flex-элементы (первого уровня) выстраиваются по главной оси по горизонтали */
+  align-items: center; /* выравнивание flex-элементов по центру вдоль поперечной оси */
+  width: 1230px; /* ширина блока */
   padding-left: 15px; 
   padding-right: 15px; 
-  margin-left: auto; 
-  margin-right: auto; 
+  margin: 0 auto; /* выравнивание блока по центру */
 }
 
 .navigation {
@@ -584,6 +582,7 @@ body {
   fill: currentColor;
 }
 
+/* --- СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО --- */
 
 /* JOB button*/
 
@@ -637,7 +636,6 @@ body {
   color: var(--white-text);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 
 /* JOB */
 
